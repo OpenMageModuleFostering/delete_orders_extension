@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Delete_Orders_Extension</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Delete Orders Extension</summary>
+    <description>Delete Orders Extension</description>
+    <notes>Delete Orders Extension</notes>
+    <authors><author><name>Hire Magento Inc.</name><user>hiremagento</user><email>hiremagento@gmail.com</email></author></authors>
+    <date>2013-09-11</date>
+    <time>18:58:44</time>
+    <contents><target name="magecommunity"><dir name="HM"><dir name="Deleteorder"><dir name="Block"><dir name="Adminhtml"><file name="Deleteorder.php" hash="bf208b30127c60b2b98d6cd68f783c8e"/><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="e16a628bed1852fb7a1716db18c8ee08"/><dir name="Render"><file name="Delete.php" hash="42393b1c31e75c84ab2d3081b5ff62be"/></dir><file name="View.php" hash="219c3578587361ac68f100653960851c"/></dir></dir></dir><file name="Deleteorder.php" hash="761115c8f5ef7eff8a2974a45e3fd462"/></dir><dir name="Helper"><file name="Data.php" hash="d12fb82b3d771f439fdf8d7186955fde"/></dir><dir name="Model"><file name="Deleteorder.php" hash="4cd43eeebe90e753ac9aec489e8da10b"/><dir name="Mysql4"><dir name="Deleteorder"><file name="Collection.php" hash="13dd19f0b62cc6ba4e3c18b87a4dbb90"/></dir><file name="Deleteorder.php" hash="9884997d098af5a49bcf5777a14a0d08"/></dir><file name="Status.php" hash="05582f33533a7a463e26b49efcb28526"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="DeleteorderController.php" hash="c17a9f038dcc10de3a47c4bb40283db1"/></dir></dir><dir name="etc"><file name="config.xml" hash="4799b8e08021404a4a87aa5f2f647894"/></dir><dir name="sql"><dir name="deleteorder_setup"><file name="mysql4-install-0.1.0.php" hash="df9fbf996ab738770bb84d008fc9ea03"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="deleteorder.xml" hash="7d07207d7c1103b44526c9344d593354"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="HM_Deleteorder.xml" hash="7bf795fa56bc4d82a30e7523b589e36e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.4</min><max>1.7</max></package><extension><name>gd</name><min>2.0.28</min><max>3.0</max></extension></required></dependencies>
+</package>

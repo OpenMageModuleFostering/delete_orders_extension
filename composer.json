@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Delete_Orders_Extension",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Delete Orders Extension",
+    "authors": [
+    {
+        "name": "Hire Magento Inc.",
+        "email": "hiremagento@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
