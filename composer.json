@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Delete_Orders_Extension",
+    "name": "openmage-module-fostering\/delete_orders_extension",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Delete Orders Extension",
     "authors": [
